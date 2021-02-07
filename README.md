@@ -11,10 +11,10 @@ Aqui você vai encontrar materiais de apoio e fontes de programas de exemplo.
 
 <h2>Alterando "master" para "main"</h2> 
 
-git add .
-git commit -m "first commit"
-git status
-git branch -m master main
-git status
+git add . </br>
+git commit -m "first commit" </br>
+git status </br>
+git branch -m master main </br>
+git status </br>
 
 
