@@ -8,3 +8,13 @@ Aqui você vai encontrar materiais de apoio e fontes de programas de exemplo.
 
 1. Selecione o botão verde Code -> Download ZIP
 2. Copie o arquivo ZIP para pasta de sua preferência e descompacte o arquivo
+
+<h2>Alterando "master" para "main"</h2> 
+
+git add .
+git commit -m "first commit"
+git status
+git branch -m master main
+git status
+
+
