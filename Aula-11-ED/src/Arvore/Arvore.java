@@ -52,4 +52,29 @@ public class Arvore {
 			System.out.println("Elemento incluído!!!");
 		}
 	}
+	
+	public void exibirPreOrdem(No raiz) {
+		if (raiz == null) 
+			return;
+		System.out.print(raiz.elemento + " ");
+		exibirPreOrdem(raiz.esquerda);
+		exibirPreOrdem(raiz.direita);
+	}
+
+	public void exibirEmOrdem(No raiz) {
+		if (raiz == null) 
+			return;
+		exibirEmOrdem(raiz.esquerda);
+		System.out.print(raiz.elemento + " ");
+		exibirEmOrdem(raiz.direita);
+	}
+
+	public void exibirPosOrdem(No raiz) {
+		if (raiz == null) 
+			return;
+		exibirPosOrdem(raiz.esquerda);
+		exibirPosOrdem(raiz.direita);
+		System.out.print(raiz.elemento + " ");
+	}
+	
 }
